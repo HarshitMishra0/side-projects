@@ -1,4 +1,3 @@
-'use strict';
 
 let secretNumber = Math.trunc(Math.random() * 19) + 1;
 let score = 20;
@@ -45,4 +44,5 @@ document.querySelector('.again').addEventListener('click', function(){
   document.querySelector('.number').textContent = "?"
   document.querySelector('.guess').value = ''
 })
+
 
